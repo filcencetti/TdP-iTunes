@@ -35,7 +35,7 @@ class View(ft.UserControl):
 
         #ROW2
         self._ddAlbum = ft.Dropdown(label="Album")
-        self._btnAnalisiComp = ft.ElevatedButton(text = "Analisi Componente.",
+        self._btnAnalisiComp = ft.ElevatedButton(text = "Analisi Componente",
                                                  on_click=self._controller.handleAnalisiComp)
 
         row2 = ft.Row([
